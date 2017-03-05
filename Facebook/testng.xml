@@ -1,0 +1,7 @@
+<suite name="MySuits">
+	<test name="MyTests">
+		<packages>
+			<package name="com.facebook" />
+		</packages>		
+	</test>
+</suite>
