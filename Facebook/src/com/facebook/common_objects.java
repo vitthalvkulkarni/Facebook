@@ -17,10 +17,10 @@ public class common_objects
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 		
 		WebElement userid = driver.findElement(By.xpath("//input[@id='email']"));
-		userid.sendKeys("9860596793");
+		userid.sendKeys("Test");
 		
 		WebElement password = driver.findElement(By.xpath("//input[@id='pass']"));
-		password.sendKeys("kvishal");
+		password.sendKeys("Test");
 		
 		WebElement login = driver.findElement(By.xpath("//label[@id='loginbutton']"));
 		login.click();		
